@@ -1,0 +1,8 @@
+--cuda-gpu-arch=sm_70
+-lcudart_static
+-ldl
+-lrt
+-pthread
+-L/opt/cuda/lib64
+-I./include
+-std=c++11
